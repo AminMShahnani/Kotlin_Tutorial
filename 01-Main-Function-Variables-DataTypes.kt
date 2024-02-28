@@ -58,5 +58,9 @@ fun main(){
     println("$name $age $gender")
     println("My name is $name and my age is $age and my gender is $gender")
 
+    var age2 = 28
+    age2 = 29
+    age2 = 30
+    println(age2)
 
 }
