@@ -33,9 +33,18 @@ fun main(){
     val testByte :Byte = 5
     println(testByte)
 
-       
+    val testShort :Short = 1000
+    println(testShort)
 
+    val testInt :Int = 400000000
+    println(testInt)
 
+    val testLong :Long = 4000000000000
+    println(testLong)
 
+    val testFloat :Float = 14.5F
+    println(testFloat)
 
+    val testDouble :Double = 135.974538
+    println(testDouble)
 }
