@@ -47,4 +47,16 @@ fun main(){
 
     val testDouble :Double = 135.974538
     println(testDouble)
+
+
+    val name: String = "Amin"
+    val age: Int = 37
+    val gender: Char = 'M'
+
+    println(name + age + gender)
+    println(name + " " + age + " " + gender)
+    println("$name $age $gender")
+    println("My name is $name and my age is $age and my gender is $gender")
+
+
 }
