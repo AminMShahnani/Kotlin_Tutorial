@@ -98,4 +98,26 @@ fun main(){
         else -> println("Number is greater than 100")
     }
 
+    val monthNumber: Int = 7
+
+    val monthName :String = when (monthNumber){
+        1 -> "Farvardin"
+        2 -> "Ordibehesht"
+        3 -> "Khordad"
+        4 -> "Tir"
+        5 -> "Mordad"
+        6 -> "Shahrivar"
+        7 -> "Mehr"
+        8 -> "Aban"
+        9 -> "Azar"
+        10 -> "Dey"
+        11 -> "Bahman"
+        12 -> "Esfand"
+
+        else -> "Invalid data"
+    }
+
+    println(monthName)
+
+
 }
