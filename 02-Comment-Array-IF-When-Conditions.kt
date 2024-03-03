@@ -94,6 +94,7 @@ fun main(){
         1, 2, 3, 4 -> println("Number is between 1-4")
         in 10..100 -> println("Number is between 10-100")
         !in 101..1000 -> println("Number is not between 101-1000")
+        is Int -> println("It is a integer")
         else -> println("Number is greater than 100")
     }
 
