@@ -21,5 +21,9 @@ fun main() {
     println(num1 * num2)
     println(num1 / num2)
 
+    val num3 = 110.0
+    val num4 = 50.0
+    print(num3 / num4)
+
     
 }
