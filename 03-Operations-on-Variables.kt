@@ -25,5 +25,8 @@ fun main() {
     val num4 = 50.0
     print(num3 / num4)
 
-    
+    val num5 = 110.0
+    val num6 = 50
+    val res :Int = (num5 / num6).toInt()
+    println(res)
 }
