@@ -29,4 +29,28 @@ fun main() {
     val num6 = 50
     val res :Int = (num5 / num6).toInt()
     println(res)
+
+    /*
+    *  a * b
+    *  a + b
+    *  a - b
+    *  a / b
+    *  a % b
+    *  a == b
+    *  a < b
+    *  a > b
+    *  a <= b
+    *  a >= b
+    *  a++
+    *  a--
+    *  a += b
+    *  a -= b
+    *  a *= b
+    *  a /= b
+    *  a %= b
+    *  a = b
+    *  a != b
+    *  ||
+    *  && */
+    
 }
