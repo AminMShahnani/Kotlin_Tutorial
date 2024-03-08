@@ -13,7 +13,34 @@ fun main(){
         }
     }
 
-    
+    print(scores.size)
+
+    for(i in scores.size -1 downTo 0){
+        println(i)
+        println(scores[i])
+        print("\n")
+    }
+
+    for(i in 0 downTo 0 step 2){
+        println(i)
+    }
+
+    for(item in scores){
+        println(item)
+    }
+
+    scores.forEach {
+        println(it)
+    }
+
+    scores.forEach { item ->
+        println(item)
+    }
+
+    scores.forEachIndexed { index, item ->
+        println(" $index : $item")
+    }
+
 
 
 
