@@ -22,7 +22,16 @@ fun main(){
         println(it)
     }
 
-    
+    arrayList.remove(10)
+    arrayList.forEach {
+        println(it)
+    }
+
+    arrayList.clear()
+    arrayList.forEach {
+        println(it)
+    }
+
 
 
 
