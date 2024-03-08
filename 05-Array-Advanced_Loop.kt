@@ -41,6 +41,22 @@ fun main(){
         println(" $index : $item")
     }
 
+    val test = scores.get(5)
+    print(test)
+
+    val test2 = scores.set(0, "1000")
+    scores.forEach {
+        println(it)
+    }
+
+    scores[2] = 200
+
+    for (i in scores.indices) {
+        
+    }
+
+
+
 
 
 
