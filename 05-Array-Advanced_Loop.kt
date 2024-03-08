@@ -44,7 +44,7 @@ fun main(){
     val test = scores.get(5)
     print(test)
 
-    val test2 = scores.set(0, "1000")
+    val test2 = scores.set(0, 1000)
     scores.forEach {
         println(it)
     }
@@ -52,10 +52,14 @@ fun main(){
     scores[2] = 200
 
     for (i in scores.indices) {
-        
+        println(i)
     }
 
+    scores.sort()
 
+    for(i in scores){
+        println(i)
+    }
 
 
 
