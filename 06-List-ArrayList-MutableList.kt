@@ -41,8 +41,16 @@ fun main(){
     }
 
     println(list)
-    
 
+    //Mutable List
+
+    val mutableList = mutableListOf(1, 2, 3, 4, 5, 6, 7, 8, 9)
+
+
+    // array      => Fiexed Size
+    // arrayList  => Not Fixed
+    // list       => Different storage
+    //mutableList => a list that can change -Mutable
 
 
 
