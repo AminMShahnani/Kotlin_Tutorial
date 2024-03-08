@@ -15,8 +15,14 @@ fun main(){
         println(it)
     }
 
-    val testList = arrayList
-    arrayList.addAll()
+    val testList = arrayListOf(11, 12, 13, 14, 15, 16, 17,)
+    arrayList.addAll(testList)
+
+    arrayList.forEach {
+        println(it)
+    }
+
+    
 
 
 
