@@ -22,6 +22,17 @@ fun numberOfTopStudents(list :List<Int>) {
     println(count)
 }
 
+fun numberOfTop(list :List<Int>, top :Int) {
+    var count = 0
+
+    list.forEach{
+        if (it > top) {
+            count++
+        }
+    }
+
+    println(count)
+}
 
 fun main(){
 
@@ -35,7 +46,8 @@ fun main(){
 
     val listOfGrade = listOf(10, 12, 14, 23, 16, 19, 16, 17)
     numberOfTopStudents(listOfGrade)
-
+    
+    numberOfTop(listOfGrade, 14)
 
 
 
