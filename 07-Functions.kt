@@ -98,7 +98,7 @@ fun main(){
     println(twoPair.first)
     println(twoPair.second)
 
-    val (firstNumber, secondNumber) = twoPair
+    val (firstNumber, secondNumber) = numberOfTopTeacher(list = listOfGrade, top = topScore)
     println(firstNumber)
     println(secondNumber)
 
