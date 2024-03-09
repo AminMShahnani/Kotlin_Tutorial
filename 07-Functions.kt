@@ -101,8 +101,5 @@ fun main(){
     val (firstNumber, secondNumber) = numberOfTopTeacher(list = listOfGrade, top = topScore)
     println(firstNumber)
     println(secondNumber)
-
-
-
-
+    
 }
