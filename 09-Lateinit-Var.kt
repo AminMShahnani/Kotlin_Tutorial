@@ -4,7 +4,7 @@ fun main(){
 
     lateinit var name :String
 
-    name = "Amin"
+    name = "24"
 
     name.toInt()
 }
