@@ -46,6 +46,32 @@ fun numberOfTopGrade(list :List<Int>, top :Int = 15) :Int {
     return count
 }
 
+
+fun numberOfTopScore(list :List<Int>, top :Int = 15) :Unit {
+    var count = 0
+
+    list.forEach{
+        if (it > top) {
+            count++
+        }
+    }
+
+}
+
+fun numberOfTopTeacher(list :List<Int>, top :Int = 15) :Pair<Int, Int> {
+    var count = 0
+
+    list.forEach{
+        if (it > top) {
+            count++
+        }
+    }
+
+    return Pair(count, 0)
+}
+
+
+
 fun main(){
 
     printName()
@@ -68,7 +94,13 @@ fun main(){
     val topGrade = numberOfTopGrade(list = listOfGrade)
     println(topGrade)
 
+    val twoPair = numberOfTopTeacher(list = listOfGrade, top = topScore)
+    println(twoPair.first)
+    println(twoPair.second)
 
+    val (firstNumber, secondNumber) = twoPair
+    println(firstNumber)
+    println(secondNumber)
 
 
 
