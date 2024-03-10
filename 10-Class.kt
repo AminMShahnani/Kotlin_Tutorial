@@ -7,7 +7,7 @@ class Human(name :String, family: String, mobile :String) {
         println("My name is $firstName $familyName and my number is $mobileNumber ")
     }
 
-    fun syHello(){
+    fun sayHello(){
         println("Hello Everybody")
     }
 
@@ -37,5 +37,11 @@ fun main() {
 
     val rudy = Human("Amin", "Shahnani", "0917")
 
-    rudy.
+    rudy.Intruduce()
+    rudy.sayHello()
+    rudy.eatBreakfast()
+    rudy.goingToSchool()
+    rudy.eatFruit("Banana")
+    rudy.sayGoodBye()
+    rudy.sleep()
 }
