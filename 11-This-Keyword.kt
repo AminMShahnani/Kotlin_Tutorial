@@ -41,6 +41,28 @@ class People(val name :String, val family: String, val mobile :String) {
     }
 }
 
+class Person {
+
+    constructor (firstName :String, familyName :String, mobileNumber :String) {
+
+    }
+
+    constructor (firstName :String, familyName :String) {
+
+    }
+
+    constructor (firstName :String) {
+
+    }
+
+    fun sayHello(){
+        println("Hello Everybody")
+    }
+
+    fun sayGoodBye(){
+        println("Bye Bye")
+    }
+}
 
 fun main() {
 
