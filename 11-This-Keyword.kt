@@ -70,5 +70,7 @@ fun main() {
 
     rudy.sayHello()
 
+    val Ali = Person("amin")
+
 
 }
