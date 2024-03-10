@@ -1,4 +1,14 @@
-class Human(name :String, family: String, mobile :String) {
+class Human(name :String) {
+
+    constructor(name :String, family: String, mobile :String) :this(name,){
+
+    }
+
+    constructor(name :String, family :String): this(name) {
+
+    }
+    
+
     var firstName :String = name
     val familyName :String = family
     val mobileNumber :String = mobile
@@ -52,5 +62,5 @@ fun main() {
     rudy.sayGoodBye()
     rudy.sleep()
 
-    println(rudy.name)
+    println(rudy.firstName)
 }
