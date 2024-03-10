@@ -9,7 +9,7 @@ class Human(name :String, family: String, mobile :String) {
         firstName = "${name} 100"
 
     }
-    
+
     fun Intruduce(){
         println("My name is $firstName $familyName and my number is $mobileNumber ")
     }
@@ -51,4 +51,6 @@ fun main() {
     rudy.eatFruit("Banana")
     rudy.sayGoodBye()
     rudy.sleep()
+
+    println(rudy.name)
 }
