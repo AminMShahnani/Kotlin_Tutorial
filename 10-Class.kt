@@ -1,17 +1,16 @@
-class Human(name :String) {
+class Human() {
 
-    constructor(name :String, family: String, mobile :String) :this(name,){
+    lateinit var firstName :String
+    lateinit var familyName :String
+    lateinit var mobileNumber :String
+
+    constructor(name :String, family: String, mobile :String) :this(){
 
     }
 
-    constructor(name :String, family :String): this(name) {
+    constructor(name :String, family :String): this() {
 
     }
-    
-
-    var firstName :String = name
-    val familyName :String = family
-    val mobileNumber :String = mobile
 
     init {
         println("Hello calss human")
