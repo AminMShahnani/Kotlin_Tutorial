@@ -35,6 +35,7 @@ class Human(name :String, family: String, mobile :String) {
 
 fun main() {
 
-    val rudy = Human()
+    val rudy = Human("Amin", "Shahnani", "0917")
 
+    rudy.
 }
