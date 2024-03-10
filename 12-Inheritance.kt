@@ -1,4 +1,4 @@
-open class Body(val name :String, val family: String, val mobile :String) {
+open class Body(protected val name :String, protected val family: String, protected val mobile :String) {
 
 
     var firstName :String = name
@@ -12,22 +12,42 @@ open class Body(val name :String, val family: String, val mobile :String) {
 }
 
 class Student(
-    studentId :Int,
-    start :Int,
-    PassedCourses :Int,
-    nameUniversity :String,
-    rankUniversity :String,
+    private val studentId :Int,
+    private val start :Int,
+    private val passedCourses :Int,
+    private val nameUniversity :String,
+    private val rankUniversity :String,
     name :String,
     familyName :String,
     mobile :String
 ) :Body(name, familyName, mobile) {
 
+    fun introduceStudent(){
+
+        println("My name is $name $familyName")
+        println("My number is $mobileNumber")
+        println("My university is $nameUniversity and rank is $rankUniversity")
+        println("I am start $start and my id is $studentId")
+        println("I passed $passedCourses course")
+
+    }
 
 }
 
 fun main() {
 
+    val amin = Student(
+        1234,
+        1400,
+        18,
+        "Sharif",
+        "12",
+        "amin",
+        "Shah",
+        "09876"
+        )
 
+    amin.introduceStudent()
 
 
 }
