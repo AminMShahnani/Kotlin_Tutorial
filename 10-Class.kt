@@ -1,8 +1,15 @@
 class Human(name :String, family: String, mobile :String) {
-    val firstName :String = name
+    var firstName :String = name
     val familyName :String = family
     val mobileNumber :String = mobile
 
+    init {
+        println("Hello calss human")
+
+        firstName = "${name} 100"
+
+    }
+    
     fun Intruduce(){
         println("My name is $firstName $familyName and my number is $mobileNumber ")
     }
