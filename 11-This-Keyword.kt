@@ -12,9 +12,9 @@ class People(val name :String, val family: String, val mobile :String) {
 //
 //    }
 
-    fun Intruduce(){
-        println("My name is $firstName $familyName and my number is $mobileNumber ")
-    }
+//    fun Intruduce(){
+//        println("My name is $firstName $familyName and my number is $mobileNumber ")
+//    }
 
     fun sayHello(){
         println("Hello Everybody")
@@ -46,7 +46,7 @@ fun main() {
 
     val rudy = People("Amin", "Shahnani", "0917")
 
-    rudy.Intruduce()
+    rudy.sayHello()
 
 
 }
