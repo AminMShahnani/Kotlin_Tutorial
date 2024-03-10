@@ -1,7 +1,11 @@
 class Human(name :String, family: String, mobile :String) {
-    val first_name :String = name
+    val firstName :String = name
     val familyName :String = family
-    val mobile_number :String = mobile
+    val mobileNumber :String = mobile
+
+    fun Intruduce(){
+        println("My name is $firstName $familyName and my number is $mobileNumber ")
+    }
 
     fun syHello(){
         println("Hello Everybody")
