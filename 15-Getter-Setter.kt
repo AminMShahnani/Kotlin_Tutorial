@@ -1,5 +1,11 @@
 class BankAccount(firstPrice :String){
-     private var price :String = firstPrice
+    var price :String = firstPrice
+        get() {
+            return field + "USD"
+        }
+        set(value) {
+            field = value
+        }
 
 //    fun getPrice() :String {
 //        return price + "USD"
@@ -12,6 +18,12 @@ class BankAccount(firstPrice :String){
 fun main(){
 
     // getter - setter
+
+//    val testAccount = BankAccount("10000")
+//    println(testAccount.getPrice())
+
+    val testAccount = BankAccount("10000")
+    println(testAccount.price)
 
 
 }
