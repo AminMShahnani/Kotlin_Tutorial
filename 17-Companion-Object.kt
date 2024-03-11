@@ -1,3 +1,11 @@
+open class Object(){
+    val human = "human"
+
+    companion object{
+
+    }
+}
+
 class Students(n :String, f :String, i :String){
 
     val name :String = n
@@ -9,7 +17,9 @@ class Students(n :String, f :String, i :String){
 
     }
 
-    companion object {
+    companion object amin :Object() {
+
+        const val newObject :String = "Amin"
 
         @JvmStatic
         val nameOfUniversity = "MIT"
