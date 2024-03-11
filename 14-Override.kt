@@ -23,7 +23,8 @@ class HowStudent(
 ) :HowPerson(name, familyName, mobile) {
 
     override fun introduce() {
-//        super.introduce()
+        super.introduce()
+        
         println("name : $name")
         println("family : $familyName")
         println("mobile number : $mobileNumber")
@@ -46,7 +47,7 @@ fun main() {
         "09876"
     )
 
-    amin.introduceStudent()
+    amin.introduce()
 
 
 }
