@@ -21,10 +21,12 @@ class HowStudent(
     mobile :String
 ) :HowPerson(name, familyName, mobile) {
 
+    override val familyName: String
+        get() = super.familyName
     override fun introduce() {
         super.introduce()
 
-        println("name : $name")
+        println("name : $firstName")
         println("family : $familyName")
         println("mobile number : $mobileNumber")
         println("University : $nameUniversity")
