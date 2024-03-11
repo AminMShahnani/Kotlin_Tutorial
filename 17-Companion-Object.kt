@@ -11,6 +11,10 @@ class Students(n :String, f :String, i :String){
 
     companion object {
         val nameOfUniversity = "MIT"
+
+        fun printUniversityName(){
+            println("MIT")
+        }
     }
 }
 
@@ -21,4 +25,6 @@ fun main(){
     val university = Students.nameOfUniversity
 
     println(university)
+
+    Students.printUniversityName()
 }
