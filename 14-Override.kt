@@ -1,9 +1,8 @@
-open class HowPerson(protected val name :String, protected val family: String, protected val mobile :String) {
+open class HowPerson(
+    protected val firstName :String,
+    open protected val familyName: String,
+    protected val mobileNumber :String) {
 
-
-    var firstName :String = name
-    var familyName :String = family
-    var mobileNumber :String = mobile
 
     open fun introduce(){
         println("My name is $firstName $familyName and my number is $mobileNumber ")
@@ -24,7 +23,7 @@ class HowStudent(
 
     override fun introduce() {
         super.introduce()
-        
+
         println("name : $name")
         println("family : $familyName")
         println("mobile number : $mobileNumber")
