@@ -10,8 +10,11 @@ class Students(n :String, f :String, i :String){
     }
 
     companion object {
+
+        @JvmStatic
         val nameOfUniversity = "MIT"
 
+        @JvmStatic
         fun printUniversityName(){
             println("MIT")
         }
