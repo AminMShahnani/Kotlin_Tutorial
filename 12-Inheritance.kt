@@ -36,7 +36,7 @@ class Student(
 
 fun main() {
 
-    val amin = Student(
+    val amin = StudentsClass(
         1234,
         1400,
         18,
