@@ -36,18 +36,18 @@ class Student(
 
 fun main() {
 
-    val amin = StudentsClass(
-        1234,
-        1400,
-        18,
-        "Sharif",
-        "12",
-        "amin",
-        "Shah",
-        "09876"
-        )
-
-    amin.introduceStudent()
+//    val amin = StudentsClass(
+////        1234,
+////        1400,
+////        18,
+////        "Sharif",
+////        "12",
+////        "amin",
+////        "Shah",
+////        "09876"
+//        )
+//
+//    amin.introduceStudent()
 
 
 }
