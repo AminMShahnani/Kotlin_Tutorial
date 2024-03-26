@@ -1,3 +1,5 @@
+import java.lang.Exception
+
 fun main(){
 
     try {
@@ -10,6 +12,9 @@ fun main(){
         println(ex.message)
     }
     catch ( ex :NullPointerException) {
+        println(ex.message)
+    }
+    catch (ex :Exception) {
         println(ex.message)
     }
 
