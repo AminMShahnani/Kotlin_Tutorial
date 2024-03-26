@@ -16,6 +16,8 @@ fun main(){
     }
     catch (ex :Exception) {
         println(ex.message)
+    } finally {
+        println("End")
     }
 
     print("Hello World")
