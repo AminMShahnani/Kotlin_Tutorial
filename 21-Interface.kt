@@ -18,6 +18,7 @@
 
      fun requestData(){
          val test = Class_A(this)
+         test.getData()
      }
 
      fun printData(){
