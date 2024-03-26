@@ -1,4 +1,4 @@
- class Class_A(){
+ class Class_A(private val dataEvent :DataEvent){
 
      fun getData(){
          val data :List<String> = listOf(
@@ -9,5 +9,32 @@
              "Aida",
              "Ali"
          )
+
+         dataEvent.onReceived(data)
      }
  }
+
+ class Class_B() :DataEvent{
+
+     fun requestData(){
+         val test = Class_A(this)
+     }
+
+     fun printData(){
+         println("Data received and shown")
+     }
+
+     override fun onReceived(list: List<String>) {
+         printData()
+     }
+ }
+
+ interface  DataEvent {
+     fun onReceived(list :List<String>)
+ }
+
+ fun main(){
+     val test = Class_B()
+     test.requestData()
+ }
+
