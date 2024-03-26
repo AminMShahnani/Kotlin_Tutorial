@@ -2,23 +2,23 @@ import java.lang.Exception
 
 fun main(){
 
-    try {
-        val test = 10/0
-
-        val data :String? = null
-        data!!.toInt()
-
-    } catch (ex :ArithmeticException) {
-        println(ex.message)
-    }
-    catch ( ex :NullPointerException) {
-        println(ex.message)
-    }
-    catch (ex :Exception) {
-        println(ex.message)
-    }
-
-    print("Hello World")
+//    try {
+//        val test = 10/0
+//
+//        val data :String? = null
+//        data!!.toInt()
+//
+//    } catch (ex :ArithmeticException) {
+//        println(ex.message)
+//    }
+//    catch ( ex :NullPointerException) {
+//        println(ex.message)
+//    }
+//    catch (ex :Exception) {
+//        println(ex.message)
+//    }
+//
+//    print("Hello World")
 
 
 }
