@@ -16,4 +16,7 @@ fun main() {
             println("Print Bye")
         }
     }
+
+    test.printBye()
+    test.printHello()
 }
