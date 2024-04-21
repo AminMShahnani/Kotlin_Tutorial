@@ -12,6 +12,13 @@ class Test {
 
         println("Old value : $oldValue \n new value : $newValue")
     }
+
+    var height: Int by Delegates.vetoable(165) { property, oldValue, newValue ->
+        println("Old value : $oldValue")
+        println("New Value : $newValue")
+
+        height > 165
+    }
 }
 
 fun main() {
@@ -19,4 +26,6 @@ fun main() {
     println(test.name)
 
     test.age = 100
+
+    test.height = 170
 }
