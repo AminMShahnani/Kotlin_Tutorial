@@ -1,6 +1,7 @@
 class Test {
 
     val name :String by lazy {
+        println("Lazy")
         "Amin"
     }
 }
