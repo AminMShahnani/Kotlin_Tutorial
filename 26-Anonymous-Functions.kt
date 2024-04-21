@@ -15,4 +15,6 @@ fun main() {
     val result_anon = list.fold(1000, fun(acc: Int, i: Int): Int {
         return acc + i
     })
+
+    val result_anon_short = list.fold(1000, fun(acc: Int, i: Int) = acc + i)
 }
