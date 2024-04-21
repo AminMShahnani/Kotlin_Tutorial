@@ -24,4 +24,7 @@ fun main(){
     printingM(2.13, 2, "Amin", 38)
 
     printAll("Amin", "Shahnani", 38, 1986)
+
+    printAll<String, Int>("Amin", "Shahnani", 38, 1986)
+
 }
